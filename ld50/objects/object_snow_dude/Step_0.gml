@@ -85,6 +85,8 @@ if (!place_meeting(x,y+1, object_platform_1))
 {
 	image_xscale = current_scale*1/remap_value(accel, -10, 10, 0.75, 1.5)
 	image_yscale = current_scale*  remap_value(accel, -10, 10, 0.75, 1.5)
+	
+	
 }
 else
 {
@@ -92,15 +94,20 @@ else
 	image_yscale = current_scale;
 }
 
+
 if phy_speed_x > 0
 {
 	sprite_index = sprite_snow_dude_roll
+	current_facing = 1;
 }
 else if phy_speed_x < 0
 {
 	sprite_index = sprite_snow_dude_roll
+	current_facing = -1;
 }
 else
 {
 	sprite_index = sprite_snow_dude_1
 }
+
+image_xscale = image_xscale * current_facing;

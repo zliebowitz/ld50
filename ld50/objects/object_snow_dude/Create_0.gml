@@ -20,5 +20,8 @@ prev_phy_speeds_i = 0
 
 script_fixture_init();
 
+
+
 phy_fixed_rotation=true;
 current_scale = 2;
+current_facing = 1;
