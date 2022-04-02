@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_snow_dude",
-    "path": "sprites/sprite_snow_dude/sprite_snow_dude.yy",
+    "name": "sprite_snow_dude_1",
+    "path": "sprites/sprite_snow_dude_1/sprite_snow_dude_1.yy",
   },
   "solid": false,
   "visible": true,
