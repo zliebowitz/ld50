@@ -15,5 +15,5 @@ phy_direction = 0
 
 // Circular array of recent phy_speed's
 prev_phy_speeds = []
-prev_phy_speeds_len = 10
+prev_phy_speeds_len = 60
 prev_phy_speeds_i = 0
