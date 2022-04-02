@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"object_snow_dude_1","path":"objects/object_snow_dude_1/object_snow_dude_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":248.0,"y":120.0,"resourceVersion":"1.0","name":"inst_7727588B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"object_snow_dude_1","path":"objects/object_snow_dude_1/object_snow_dude_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":240.0,"y":80.0,"resourceVersion":"1.0","name":"inst_7727588B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":248.0,"y":144.0,"resourceVersion":"1.0","name":"inst_19732EB6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":144.0,"resourceVersion":"1.0","name":"inst_297FA818","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":200.0,"y":144.0,"resourceVersion":"1.0","name":"inst_29B21A2B","tags":[],"resourceType":"GMRInstance",},
@@ -58,7 +58,7 @@
   },
   "physicsSettings": {
     "inheritPhysicsSettings": false,
-    "PhysicsWorld": false,
+    "PhysicsWorld": true,
     "PhysicsWorldGravityX": 0.0,
     "PhysicsWorldGravityY": 10.0,
     "PhysicsWorldPixToMetres": 0.1,
