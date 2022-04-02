@@ -2,7 +2,9 @@
   "resources": [
     {"id":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"order":2,},
     {"id":{"name":"room_stage_1","path":"rooms/room_stage_1/room_stage_1.yy",},"order":3,},
+    {"id":{"name":"object_music_title","path":"objects/object_music_title/object_music_title.yy",},"order":1,},
     {"id":{"name":"room_intro","path":"rooms/room_intro/room_intro.yy",},"order":1,},
+    {"id":{"name":"script_music_play","path":"scripts/script_music_play/script_music_play.yy",},"order":1,},
     {"id":{"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"order":1,},
     {"id":{"name":"object_snow_dude_0","path":"objects/object_snow_dude_0/object_snow_dude_0.yy",},"order":1,},
     {"id":{"name":"sprite_untitled_masterpiece","path":"sprites/sprite_untitled_masterpiece/sprite_untitled_masterpiece.yy",},"order":0,},
@@ -19,7 +21,9 @@
     {"id":{"name":"script_globals","path":"scripts/script_globals/script_globals.yy",},"order":0,},
     {"id":{"name":"sprite_snow_dude_1","path":"sprites/sprite_snow_dude_1/sprite_snow_dude_1.yy",},"order":1,},
     {"id":{"name":"object_title_screen_timer","path":"objects/object_title_screen_timer/object_title_screen_timer.yy",},"order":0,},
+    {"id":{"name":"object_music_player","path":"objects/object_music_player/object_music_player.yy",},"order":0,},
     {"id":{"name":"sprite_snowball_1","path":"sprites/sprite_snowball_1/sprite_snowball_1.yy",},"order":3,},
+    {"id":{"name":"sound_music_title","path":"sounds/sound_music_title/sound_music_title.yy",},"order":0,},
     {"id":{"name":"room_stage_0","path":"rooms/room_stage_0/room_stage_0.yy",},"order":2,},
     {"id":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},"order":0,},
   ],
@@ -67,6 +71,8 @@
     {"folderPath":"folders/Objects/intro.yy","order":3,"resourceVersion":"1.0","name":"intro","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/title.yy","order":3,"resourceVersion":"1.0","name":"title","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/snow_dude.yy","order":6,"resourceVersion":"1.0","name":"snow_dude","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/music.yy","order":4,"resourceVersion":"1.0","name":"music","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/music.yy","order":1,"resourceVersion":"1.0","name":"music","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
