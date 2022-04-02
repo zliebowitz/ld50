@@ -48,8 +48,7 @@ if (damp_speed)
 }
 damp_speed = true
 
-if(keyThrow && throw_enabled)
-//if(keyThrow && place_meeting(x,y+1, object_platform_1))
+if(keyThrow && throw_enabled && numSnowballsThrown < numSnowballsThrowable)
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 
@@ -61,8 +60,28 @@ if(keyThrow && throw_enabled)
 	}
 	
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
+	numSnowballsThrown += 1;
 	throw_enabled = false;
 	alarm[0] = room_speed * .05;
+
+	image_xscale = 2 * (numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable;
+	image_yscale = image_xscale;
+
+		physics_remove_fixture(self, fixture_bind);
+	physics_fixture_delete(fixture_bind)
+	
+	var fixture = physics_fixture_create();
+	physics_fixture_set_density(fixture, 0.8);
+	physics_fixture_set_restitution(fixture, 0.1);
+	physics_fixture_set_collision_group(fixture, -1);
+	physics_fixture_set_linear_damping(fixture, 0.1);
+	physics_fixture_set_angular_damping(fixture, 0.1);
+	physics_fixture_set_friction(fixture, 0.2);
+	physics_fixture_set_box_shape(fixture, abs(sprite_width) / 2.0, abs(sprite_height) / 2.0 );
+	//fixture_bind = physics_fixture_bind_ext(fixture, self, x, y - sprite_height / 2);
+	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, -abs(sprite_height) / 2.0 - 1);
+	
+	physics_fixture_delete(fixture);
 }
 phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
 phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
@@ -71,9 +90,6 @@ phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
 
 
 // Update sprite based on movement and location, TODO: and current size
-image_xscale = 2
-image_yscale = 2
-
 if phy_speed_x > 0
 {
 	sprite_index = sprite_snow_dude_roll
