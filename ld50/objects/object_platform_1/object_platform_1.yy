@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_snow_dude_1",
-    "path": "sprites/sprite_snow_dude_1/sprite_snow_dude_1.yy",
+    "name": "sprite_platform_1",
+    "path": "sprites/sprite_platform_1/sprite_platform_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/game.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_snow_dude_1",
+  "name": "object_platform_1",
   "tags": [],
   "resourceType": "GMObject",
 }
