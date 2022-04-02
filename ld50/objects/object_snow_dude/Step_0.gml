@@ -5,14 +5,16 @@
 
 keyLeft = keyboard_check(ord("A"))
 keyRight = keyboard_check(ord("D"))
-keyUp = keyboard_check(ord("W"))
+keyUp = keyboard_check_pressed(ord("W"))
 keyDown = keyboard_check(ord("S"))
 keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
 
 
 if(keyUp && can_jump)
 {
-	physics_apply_force(x,y,0,-jumpforce);
+	physics_apply_force(x,y,0,-recoilforce);
+	script_fixture_update();
+	
 }
 can_jump = false;
 
@@ -64,6 +66,8 @@ if(keyThrow && throw_enabled)
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
 	throw_enabled = false;
 	alarm[0] = room_speed * .05;
+	
+	script_fixture_update();
 }
 phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
 phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
@@ -79,13 +83,13 @@ prev_phy_speeds_i %= prev_phy_speeds_len
 
 if (!place_meeting(x,y+1, object_platform_1))
 {
-	image_xscale = 2*1/remap_value(accel, -10, 10, 0.75, 1.5)
-	image_yscale = 2*  remap_value(accel, -10, 10, 0.75, 1.5)
+	image_xscale = current_scale*1/remap_value(accel, -10, 10, 0.75, 1.5)
+	image_yscale = current_scale*  remap_value(accel, -10, 10, 0.75, 1.5)
 }
 else
 {
-	image_xscale = 2
-	image_yscale = 2
+	image_xscale = current_scale;
+	image_yscale = current_scale;
 }
 
 if phy_speed_x > 0
