@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "snow_dude",
+    "path": "folders/Sprites/snow_dude.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_snow_dude_1",
