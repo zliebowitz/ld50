@@ -74,19 +74,17 @@ phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
 
 
 
-accel = phy_speed - array_mean(prev_phy_speeds)
+accel = phy_speed - global_array_mean(prev_phy_speeds)
 phy_direction = radtodeg(arctan2(phy_speed_y, -phy_speed_x))
 array_delete(prev_phy_speeds, prev_phy_speeds_i, 1)
 array_insert(prev_phy_speeds, prev_phy_speeds_i, phy_speed)
 prev_phy_speeds_i += 1
 prev_phy_speeds_i %= prev_phy_speeds_len
 
-if (!place_meeting(x,y+1, object_platform_1))
+if (!place_meeting(x,y + 3, object_platform_1))
 {
-	image_xscale = current_scale*1/remap_value(accel, -10, 10, 0.75, 1.5)
-	image_yscale = current_scale*  remap_value(accel, -10, 10, 0.75, 1.5)
-	
-	
+	image_xscale = current_scale/global_remap_value(accel, -10, 10, 0.75, 1.5)
+	image_yscale = current_scale*global_remap_value(accel, -10, 10, 0.75, 1.5)
 }
 else
 {
