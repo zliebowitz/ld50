@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":{"name":"a58faf12-bd90-4e59-b93d-370b2c99e16b","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c02f4946-2437-4994-812e-a5921e904a26","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c02f4946-2437-4994-812e-a5921e904a26","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":{"name":"c194ef22-72d5-4681-a46c-2527ae848d47","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"c02f4946-2437-4994-812e-a5921e904a26","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"36109412-418a-4ca9-a226-b6dd98a13eb0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d0a7c8a7-2df5-40a0-b062-9e009426eb7c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c02f4946-2437-4994-812e-a5921e904a26","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a58faf12-bd90-4e59-b93d-370b2c99e16b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c194ef22-72d5-4681-a46c-2527ae848d47","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
