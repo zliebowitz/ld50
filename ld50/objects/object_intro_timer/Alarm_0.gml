@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-room_goto_next();
+object_transition_fade_out.room_id = room_stage_1;
