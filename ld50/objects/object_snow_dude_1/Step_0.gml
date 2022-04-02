@@ -8,27 +8,46 @@ keyDown = keyboard_check(ord("S"))
 keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
 
 
-//if(keyUp)
-//{
-//	physics_apply_force(x,y,0,-walkforce);
-//}
+if(keyUp && can_jump)
+{
+	physics_apply_force(x,y,0,-jumpforce);
+}
+can_jump = false;
 
 
-//if(keyDown)
-//{
-//	physics_apply_force(x,y,0,walkforce);
-//}
+if(keyDown)
+{
+	//physics_apply_force(x,y,0,walkforce);
+}
 
 
-//if(keyLeft)
-//{
-//	physics_apply_force(x,y,-walkforce,0);
-//}
 
-//if(keyRight)
-//{
-//	physics_apply_force(x,y,walkforce,0);	
-//}
+if(keyLeft && phy_speed_x > -max_walkspeed)
+{
+	//physics_apply_force(x,y,-walkforce,0);
+	phy_speed_x -= walkspeed
+	damp_speed = false;
+}
+
+if(keyRight && phy_speed_x < max_walkspeed)
+{
+	//physics_apply_force(x,y,walkforce,0);	
+	phy_speed_x += walkspeed
+	damp_speed = false
+}
+
+// If the player is not moving left or right, slow their x speed
+if (damp_speed)
+{
+	if abs(phy_speed_x) <= speed_damping
+		phy_speed_x = 0
+	else if (phy_speed_x > 0)
+		phy_speed_x -= speed_damping
+	else if (phy_speed_x < 0)
+		phy_speed_x += speed_damping
+}
+damp_speed = true
+
 if(keyThrow && throw_enabled)
 //if(keyThrow && place_meeting(x,y+1, object_platform_1))
 {
@@ -43,7 +62,29 @@ if(keyThrow && throw_enabled)
 	
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
 	throw_enabled = false;
-	alarm[0] = room_speed * .5;
+	alarm[0] = room_speed * .05;
 }
 phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
 phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
+
+
+
+
+// Update sprite based on movement and location, TODO: and current size
+image_xscale = 2
+image_yscale = 2
+
+if phy_speed_x > 0
+{
+	sprite_index = sprite_snow_dude_roll
+	image_xscale = abs(image_xscale)
+}
+else if phy_speed_x < 0
+{
+	sprite_index = sprite_snow_dude_roll
+	image_xscale = abs(image_xscale) * -1
+}
+else
+{
+	sprite_index = sprite_snow_dude_1
+}
