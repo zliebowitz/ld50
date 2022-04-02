@@ -8,29 +8,29 @@ keyDown = keyboard_check(ord("S"))
 keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
 
 
-if(keyUp)
-{
-	physics_apply_force(x,y,0,-walkforce);
-}
+//if(keyUp)
+//{
+//	physics_apply_force(x,y,0,-walkforce);
+//}
 
 
-if(keyDown)
-{
-	physics_apply_force(x,y,0,walkforce);
-}
+//if(keyDown)
+//{
+//	physics_apply_force(x,y,0,walkforce);
+//}
 
 
-if(keyLeft)
-{
-	physics_apply_force(x,y,-walkforce,0);
-}
+//if(keyLeft)
+//{
+//	physics_apply_force(x,y,-walkforce,0);
+//}
 
-if(keyRight)
-{
-	physics_apply_force(x,y,walkforce,0);	
-}
-
-if(keyThrow && place_meeting(x,y+1, object_platform_1))
+//if(keyRight)
+//{
+//	physics_apply_force(x,y,walkforce,0);	
+//}
+if(keyThrow && throw_enabled)
+//if(keyThrow && place_meeting(x,y+1, object_platform_1))
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 
@@ -42,5 +42,8 @@ if(keyThrow && place_meeting(x,y+1, object_platform_1))
 	}
 	
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
+	throw_enabled = false;
+	alarm[0] = room_speed * .5;
 }
-
+phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
+phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);

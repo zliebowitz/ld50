@@ -16,7 +16,7 @@
   "physicsShape": 1,
   "physicsGroup": 1,
   "physicsDensity": 0.0,
-  "physicsRestitution": 2.0,
+  "physicsRestitution": 1.1,
   "physicsLinearDamping": 0.1,
   "physicsAngularDamping": 0.1,
   "physicsFriction": 0.2,
