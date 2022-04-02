@@ -30,7 +30,7 @@ if(keyRight)
 	physics_apply_force(x,y,walkforce,0);	
 }
 
-if(keyThrow && throw_enabled)
+if(keyThrow && place_meeting(x,y+1, object_platform_1))
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 
@@ -42,7 +42,5 @@ if(keyThrow && throw_enabled)
 	}
 	
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
-	throw_enabled = false;
-	alarm[0] = room_speed*.3;
 }
 
