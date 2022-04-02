@@ -1,8 +1,10 @@
 {
   "resources": [
     {"id":{"name":"room_intro","path":"rooms/room_intro/room_intro.yy",},"order":1,},
+    {"id":{"name":"object_snow_dude_0","path":"objects/object_snow_dude_0/object_snow_dude_0.yy",},"order":1,},
     {"id":{"name":"sprite_untitled_masterpiece","path":"sprites/sprite_untitled_masterpiece/sprite_untitled_masterpiece.yy",},"order":0,},
     {"id":{"name":"object_window_resize","path":"objects/object_window_resize/object_window_resize.yy",},"order":1,},
+    {"id":{"name":"object_snow_dude_1","path":"objects/object_snow_dude_1/object_snow_dude_1.yy",},"order":0,},
     {"id":{"name":"object_title_screen_timer","path":"objects/object_title_screen_timer/object_title_screen_timer.yy",},"order":0,},
     {"id":{"name":"room_stage","path":"rooms/room_stage/room_stage.yy",},"order":2,},
     {"id":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},"order":0,},
@@ -41,6 +43,7 @@
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/title_screen.yy","order":1,"resourceVersion":"1.0","name":"title_screen","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/game.yy","order":2,"resourceVersion":"1.0","name":"game","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
