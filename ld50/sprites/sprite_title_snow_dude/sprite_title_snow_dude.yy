@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 136,
+  "bbox_right": 273,
   "bbox_top": 0,
-  "bbox_bottom": 167,
+  "bbox_bottom": 335,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 137,
-  "height": 168,
+  "width": 274,
+  "height": 336,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"17f9ef8f-6446-472b-8119-99387945686f","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"17f9ef8f-6446-472b-8119-99387945686f","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":{"name":"52bf84ea-0b7e-4284-8de6-65145d2ca668","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"17f9ef8f-6446-472b-8119-99387945686f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"LayerId":{"name":"a58faf12-bd90-4e59-b93d-370b2c99e16b","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2366d64f-4ba7-4055-8c67-c4e2f8736963","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"17f9ef8f-6446-472b-8119-99387945686f","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"36109412-418a-4ca9-a226-b6dd98a13eb0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c62be5b1-31a6-45e0-b080-557c73f8ff79","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 68,
-    "yorigin": 84,
+    "xorigin": 137,
+    "yorigin": 168,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sprite_title_snow_dude","path":"sprites/sprite_title_snow_dude/sprite_title_snow_dude.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"52bf84ea-0b7e-4284-8de6-65145d2ca668","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a58faf12-bd90-4e59-b93d-370b2c99e16b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
