@@ -13,7 +13,6 @@ function script_fixture_init()
 	physics_fixture_set_angular_damping(fixture, 0.1);
 	physics_fixture_set_friction(fixture, 0.2);
 	physics_fixture_set_box_shape(fixture, abs(sprite_width) / 2.0, abs(sprite_height) / 2.0 );
-	//fixture_bind = physics_fixture_bind_ext(fixture, self, x, y - sprite_height / 2);
 	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, -abs(sprite_height) / 2.0 - 1);
 	
 	physics_fixture_delete(fixture);	
@@ -37,7 +36,6 @@ function script_fixture_update()
 	physics_fixture_set_angular_damping(fixture, 0.1);
 	physics_fixture_set_friction(fixture, 0.2);
 	physics_fixture_set_box_shape(fixture, abs(sprite_width) / 2.0, abs(sprite_height) / 2.0 );
-	//fixture_bind = physics_fixture_bind_ext(fixture, self, x, y - sprite_height / 2);
 	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, -abs(sprite_height) / 2.0 - 1);
 	
 	physics_fixture_delete(fixture);
