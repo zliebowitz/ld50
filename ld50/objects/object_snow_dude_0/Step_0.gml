@@ -51,7 +51,6 @@ if (damp_speed)
 damp_speed = true
 
 if(keyThrow && throw_enabled)
-//if(keyThrow && place_meeting(x,y+1, object_platform_1))
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 
@@ -80,14 +79,13 @@ prev_phy_speeds_i %= prev_phy_speeds_len
 
 if (!place_meeting(x,y+1, object_platform_1))
 {
-	image_xscale = 1/remap_value(accel, -10, 10, 0.75, 1.5)
-	image_yscale =   remap_value(accel, -10, 10, 0.75, 1.5)
-	image_angle  = radtodeg(arctan2(phy_speed_y, phy_speed_x))
+	image_xscale = 2*1/remap_value(accel, -10, 10, 0.75, 1.5)
+	image_yscale = 2*  remap_value(accel, -10, 10, 0.75, 1.5)
 }
 else
 {
-	image_xscale = 1
-	image_yscale = 1
+	image_xscale = 2
+	image_yscale = 2
 }
 
 if phy_speed_x > 0
