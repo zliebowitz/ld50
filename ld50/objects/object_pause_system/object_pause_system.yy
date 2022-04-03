@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "pause",
+    "path": "folders/Objects/pause.yy",
   },
   "resourceVersion": "1.0",
   "name": "object_pause_system",

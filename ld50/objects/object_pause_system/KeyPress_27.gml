@@ -4,25 +4,13 @@
 
 if(!pause)
 {
-	pause = true;
-		
-	// deactivate all objects (except this one):
-	instance_deactivate_all(true);
-	physics_pause_enable(true);
-		
-	// disable drawing of the application surface because we will draw our copy now
-	application_surface_draw_enable(false);
-	audio_pause_all();
+	script_pause_system_pause();
+	
+	
+	
 }
 else
 {
-	
-	pause = false;
-
-	instance_activate_all();
-	physics_pause_enable(false);
-		
-	application_surface_draw_enable(true);
-	audio_resume_all();
+	script_pause_system_unpause();
 	
 }
