@@ -12,8 +12,11 @@ function script_fixture_init()
 	physics_fixture_set_linear_damping(fixture, 0.1);
 	physics_fixture_set_angular_damping(fixture, 0.1);
 	physics_fixture_set_friction(fixture, 0.2);
+	var tmp_index = sprite_index;
+	sprite_index = sprite_snow_dude_1;
 	physics_fixture_set_box_shape(fixture, abs(sprite_width) / 2.0, abs(sprite_height) / 2.0 );
-	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, -abs(sprite_height) / 2.0 - 1);
+	sprite_index = tmp_index;
+	fixture_bind = physics_fixture_bind_ext(fixture,self,-1,  0);
 	
 	physics_fixture_delete(fixture);	
 }
@@ -28,6 +31,12 @@ function script_fixture_update()
 	image_xscale = current_scale //setting this hear so it adjust in the sprite_w and sprite_h below
 	image_yscale = image_xscale;
 	
+	script_fixture_step()
+	
+}
+
+function script_fixture_step()
+{
 	physics_remove_fixture(self, fixture_bind);
 	physics_fixture_delete(fixture_bind)
 	
@@ -38,8 +47,13 @@ function script_fixture_update()
 	physics_fixture_set_linear_damping(fixture, 0.1);
 	physics_fixture_set_angular_damping(fixture, 0.1);
 	physics_fixture_set_friction(fixture, 0.2);
+	
+	var tmp_index = sprite_index;
+	sprite_index = sprite_snow_dude_1;
 	physics_fixture_set_box_shape(fixture, abs(sprite_width) / 2.0, abs(sprite_height) / 2.0 );
-	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, -abs(sprite_height) / 2.0 - 1);
+	sprite_index = tmp_index;
+	
+	fixture_bind = physics_fixture_bind_ext(fixture,self,-1, 0);
 	
 	physics_fixture_delete(fixture);
 }

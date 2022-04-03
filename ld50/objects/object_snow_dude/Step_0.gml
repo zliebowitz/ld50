@@ -56,8 +56,6 @@ if(keyThrow && throw_enabled)
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 	script_throw_snowball(angle);
-	
-	
 	script_fixture_update();
 	audio_play_sound(sound_sfx_throw,0,0)
 }
@@ -83,6 +81,8 @@ else
 	image_xscale = current_scale;
 	image_yscale = current_scale;
 }
+
+
 
 if(	numSnowballsThrown/numSnowballsThrowable == 1)
 {
