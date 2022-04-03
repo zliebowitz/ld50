@@ -26,7 +26,7 @@
     {"id":{"name":"sprite_snowball_explosion_1","path":"sprites/sprite_snowball_explosion_1/sprite_snowball_explosion_1.yy",},"order":3,},
     {"id":{"name":"sprite_platform_bouncy","path":"sprites/sprite_platform_bouncy/sprite_platform_bouncy.yy",},"order":4,},
     {"id":{"name":"script_fixture_update","path":"scripts/script_fixture_update/script_fixture_update.yy",},"order":2,},
-    {"id":{"name":"sprite_title_boy","path":"sprites/sprite_title_boy/sprite_title_boy.yy",},"order":3,},
+    {"id":{"name":"sprite_title_dude","path":"sprites/sprite_title_dude/sprite_title_dude.yy",},"order":3,},
     {"id":{"name":"sprite_platform_1","path":"sprites/sprite_platform_1/sprite_platform_1.yy",},"order":2,},
     {"id":{"name":"object_intro_2_timer","path":"objects/object_intro_2_timer/object_intro_2_timer.yy",},"order":1,},
     {"id":{"name":"object_music_intro","path":"objects/object_music_intro/object_music_intro.yy",},"order":3,},
