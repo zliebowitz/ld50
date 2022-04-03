@@ -20,10 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":0.0,"y":0.0,},
-    {"x":12.0,"y":0.0,},
-    {"x":12.0,"y":12.0,},
-    {"x":0.0,"y":12.0,},
+    {"x":0.0,"y":390.0,},
+    {"x":64.0,"y":390.0,},
+    {"x":64.0,"y":448.0,},
+    {"x":0.0,"y":448.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_snow_dude","path":"objects/object_snow_dude/object_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},

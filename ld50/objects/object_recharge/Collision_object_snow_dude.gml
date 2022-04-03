@@ -11,6 +11,4 @@ if(other.numSnowballsThrown != 0)
 	}
 	
 	audio_play_sound(sound_sfx_recharge, 0, 0);
-	instance_create_depth(x, y, depth, object_snowball_explosion_1);
-	instance_destroy();
 }
