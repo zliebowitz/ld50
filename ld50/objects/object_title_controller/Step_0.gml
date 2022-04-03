@@ -29,7 +29,7 @@ else if (!keyboard_check(vk_right) && right_pressed)
 	right_pressed = false;
 }
 
-if (keyboard_check(vk_enter) && !enter_pressed)
+if ((keyboard_check(vk_enter) || keyboard_check(vk_space)) && !enter_pressed)
 {
 	audio_stop_all();
 	audio_play_sound(sound_sfx_selection_made, 10, false);
