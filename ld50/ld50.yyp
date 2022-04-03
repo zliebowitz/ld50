@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"sprite_snow_dude_fling","path":"sprites/sprite_snow_dude_fling/sprite_snow_dude_fling.yy",},"order":1,},
     {"id":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"order":2,},
+    {"id":{"name":"sprite_intro_1","path":"sprites/sprite_intro_1/sprite_intro_1.yy",},"order":0,},
     {"id":{"name":"script_volume","path":"scripts/script_volume/script_volume.yy",},"order":0,},
     {"id":{"name":"sprite_title_snow","path":"sprites/sprite_title_snow/sprite_title_snow.yy",},"order":2,},
     {"id":{"name":"room_stage_1","path":"rooms/room_stage_1/room_stage_1.yy",},"order":4,},
@@ -87,6 +88,7 @@
     {"folderPath":"folders/Sounds/music.yy","order":1,"resourceVersion":"1.0","name":"music","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/sounds.yy","order":3,"resourceVersion":"1.0","name":"sounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/transitions.yy","order":5,"resourceVersion":"1.0","name":"transitions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/intro.yy","order":8,"resourceVersion":"1.0","name":"intro","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
