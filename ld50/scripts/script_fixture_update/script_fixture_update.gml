@@ -39,7 +39,7 @@ function script_fixture_step()
 	physics_fixture_delete(fixture_bind)
 	
 	var fixture = physics_fixture_create();
-	physics_fixture_set_density(fixture, 0.8);
+	physics_fixture_set_density(fixture, 1.95/(current_scale * current_scale));
 	physics_fixture_set_restitution(fixture, 0.1);
 	physics_fixture_set_collision_group(fixture, -1);
 	physics_fixture_set_linear_damping(fixture, 0.1);

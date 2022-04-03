@@ -1,11 +1,15 @@
 //Add pause menu so we don't have to add to rooms manually
 pause_system = instance_create_depth(0,0,0, object_pause_system)
 
-recoilforce = 160000;walkspeed = 1.5;
-max_speed = 40;
-max_walkspeed = floor(max_speed/3);
-speed_damping = 1;
+recoilforce = 80;
+walkspeed = 1.5;
+max_y_speed = 20;
+max_x_speed = 40;
 
+max_walkspeed = 12;
+speed_damping = 2;
+time_until_damping = 0
+walkforce = 6
 
 throw_enabled = true;
 in_air = false;

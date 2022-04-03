@@ -9,6 +9,7 @@ function script_throw_snowball(angle_radians)
 		physics_apply_force(x,y, cos(angle)*throwforce, sin(angle)*throwforce)
 	}
 	
+	phy_speed_y = 0
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
 	numSnowballsThrown += 1;
 	throw_enabled = false;

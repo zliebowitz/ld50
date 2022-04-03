@@ -5,4 +5,4 @@ alarm[0] = room_speed;
 image_xscale =2;
 image_yscale =2;
 
-throwforce = 100;
+throwforce = 0.1;

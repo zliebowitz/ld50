@@ -28,20 +28,20 @@ if(keyUp && throw_enabled)
 
 if(keyLeft && phy_speed_x > -max_walkspeed)
 {
-	//physics_apply_force(x,y,-walkforce,0);
-	phy_speed_x -= walkspeed
+	physics_apply_force(x,y,-walkforce,0);
+	//phy_speed_x -= walkspeed
 	damp_speed = false;
 }
 
 if(keyRight && phy_speed_x < max_walkspeed)
 {
-	//physics_apply_force(x,y,walkforce,0);	
-	phy_speed_x += walkspeed
+	physics_apply_force(x,y,walkforce,0);	
+	//phy_speed_x += walkspeed
 	damp_speed = false
 }
 
 // If the player is not moving left or right, slow their x speed
-if (damp_speed)
+if (damp_speed && time_until_damping <= 0)
 {
 	if abs(phy_speed_x) <= speed_damping
 		phy_speed_x = 0
@@ -50,17 +50,20 @@ if (damp_speed)
 	else if (phy_speed_x < 0)
 		phy_speed_x += speed_damping
 }
+if time_until_damping > 0
+	time_until_damping --
 damp_speed = true
 
 if(keyThrow && throw_enabled)
 {
+	time_until_damping = 10
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
 	script_throw_snowball(angle);
 	script_fixture_update();
 	audio_play_sound(sound_sfx_throw,0,0)
 }
-phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
-phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);
+phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
+phy_speed_y = clamp(phy_speed_y, -max_y_speed, max_y_speed);
 
 
 
