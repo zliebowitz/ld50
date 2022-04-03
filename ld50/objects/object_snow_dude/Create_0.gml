@@ -1,3 +1,6 @@
+//Add pause menu so we don't have to add to rooms manually
+pause_system = instance_create_depth(0,0,0, object_pause_system)
+
 recoilforce = 160000;walkspeed = 1.5;
 max_speed = 40;
 max_walkspeed = floor(max_speed/3);
