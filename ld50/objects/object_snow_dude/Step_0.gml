@@ -4,7 +4,6 @@
 keyLeft = keyboard_check(ord("A"))
 keyRight = keyboard_check(ord("D"))
 keyUp = keyboard_check_pressed(ord("W"))
-keyDown = keyboard_check(ord("S"))
 keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
 
 
@@ -25,13 +24,6 @@ if(keyUp && throw_enabled)
 	audio_play_sound(sound_sfx_jump,0,0)
 	
 }
-
-
-if(keyDown)
-{
-	//physics_apply_force(x,y,0,walkforce);
-}
-
 
 
 if(keyLeft && phy_speed_x > -max_walkspeed)
