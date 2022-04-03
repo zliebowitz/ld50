@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sprite_snowball_explosion_1",
-    "path": "sprites/sprite_snowball_explosion_1/sprite_snowball_explosion_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -22,8 +19,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +28,7 @@
     "path": "folders/Objects/snow.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_snowball_explosion_1",
+  "name": "object_snowverlay",
   "tags": [],
   "resourceType": "GMObject",
 }
