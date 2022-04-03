@@ -68,6 +68,7 @@
     {"id":{"name":"sound_sfx_snowball_explode","path":"sounds/sound_sfx_snowball_explode/sound_sfx_snowball_explode.yy",},"order":6,},
     {"id":{"name":"room_stage_3","path":"rooms/room_stage_3/room_stage_3.yy",},"order":6,},
     {"id":{"name":"sound_sfx_jump","path":"sounds/sound_sfx_jump/sound_sfx_jump.yy",},"order":0,},
+    {"id":{"name":"sound_sfx_recharge","path":"sounds/sound_sfx_recharge/sound_sfx_recharge.yy",},"order":9,},
     {"id":{"name":"room_intro_2","path":"rooms/room_intro_2/room_intro_2.yy",},"order":7,},
     {"id":{"name":"object_music_player","path":"objects/object_music_player/object_music_player.yy",},"order":0,},
     {"id":{"name":"font_default","path":"fonts/font_default/font_default.yy",},"order":0,},

@@ -1,7 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.numSnowballsThrown = 0;
-with(other)
+
+
+if(other.numSnowballsThrown != 0)
 {
-	script_fixture_update();
+	other.numSnowballsThrown = 0;
+	with(other)
+	{
+		script_fixture_update();
+	}
+	
+	audio_play_sound(sound_sfx_recharge, 0, 0);
+	
 }
