@@ -24,7 +24,7 @@ function script_fixture_update()
 	
 	var max_scale = 2
 	var min_scale = 0.4
-	var scale_normalized = (max_scale - min_scale)*(numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable
+	var scale_normalized = (max_scale - min_scale)*((numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable)+min_scale;
 	
 	current_scale = scale_normalized;
 	image_xscale = current_scale //setting this hear so it adjust in the sprite_w and sprite_h below
