@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"object_menu","path":"objects/object_menu/object_menu.yy",},"order":9,},
     {"id":{"name":"sprite_snow_dude_fling","path":"sprites/sprite_snow_dude_fling/sprite_snow_dude_fling.yy",},"order":1,},
     {"id":{"name":"script_particles","path":"scripts/script_particles/script_particles.yy",},"order":4,},
     {"id":{"name":"object_platform_1","path":"objects/object_platform_1/object_platform_1.yy",},"order":2,},
@@ -22,6 +23,7 @@
     {"id":{"name":"room_stage_2","path":"rooms/room_stage_2/room_stage_2.yy",},"order":5,},
     {"id":{"name":"object_platform_bouncy","path":"objects/object_platform_bouncy/object_platform_bouncy.yy",},"order":5,},
     {"id":{"name":"object_intro_1_timer","path":"objects/object_intro_1_timer/object_intro_1_timer.yy",},"order":0,},
+    {"id":{"name":"sprite_health","path":"sprites/sprite_health/sprite_health.yy",},"order":9,},
     {"id":{"name":"sprite_snow_dude_roll","path":"sprites/sprite_snow_dude_roll/sprite_snow_dude_roll.yy",},"order":0,},
     {"id":{"name":"sprite_snowball_explosion_1","path":"sprites/sprite_snowball_explosion_1/sprite_snowball_explosion_1.yy",},"order":3,},
     {"id":{"name":"sprite_platform_bouncy","path":"sprites/sprite_platform_bouncy/sprite_platform_bouncy.yy",},"order":4,},
@@ -33,6 +35,7 @@
     {"id":{"name":"object_snow_pixel","path":"objects/object_snow_pixel/object_snow_pixel.yy",},"order":4,},
     {"id":{"name":"object_window_resize","path":"objects/object_window_resize/object_window_resize.yy",},"order":1,},
     {"id":{"name":"object_fire","path":"objects/object_fire/object_fire.yy",},"order":5,},
+    {"id":{"name":"sprite_menu","path":"sprites/sprite_menu/sprite_menu.yy",},"order":8,},
     {"id":{"name":"object_music_bgm","path":"objects/object_music_bgm/object_music_bgm.yy",},"order":2,},
     {"id":{"name":"sprite_fire","path":"sprites/sprite_fire/sprite_fire.yy",},"order":8,},
     {"id":{"name":"object_snowball_1","path":"objects/object_snowball_1/object_snowball_1.yy",},"order":3,},
