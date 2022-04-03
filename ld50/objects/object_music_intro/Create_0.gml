@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-alarm[0] = 10 * room_speed;
+script_music_play(sound_music_intro, 0, true);
