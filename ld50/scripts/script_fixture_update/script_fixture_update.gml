@@ -21,7 +21,12 @@ function script_fixture_init()
 function script_fixture_update()
 {
 	numSnowballsThrown += 1;
-	current_scale = current_scale * (numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable;
+	
+	var max_scale = 2
+	var min_scale = 0.4
+	var scale_normalized = (max_scale - min_scale)*(numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable
+	
+	current_scale = scale_normalized;
 	image_xscale = current_scale //setting this hear so it adjust in the sprite_w and sprite_h below
 	image_yscale = image_xscale;
 	

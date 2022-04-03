@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-
 keyLeft = keyboard_check(ord("A"))
 keyRight = keyboard_check(ord("D"))
 keyUp = keyboard_check_pressed(ord("W"))
@@ -94,5 +92,8 @@ else
 	image_yscale = current_scale;
 }
 
-
+if(	numSnowballsThrown/numSnowballsThrowable == 1)
+{
+	room_restart();
+}
 
