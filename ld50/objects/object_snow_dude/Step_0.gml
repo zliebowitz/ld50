@@ -10,15 +10,18 @@ keyDown = keyboard_check(ord("S"))
 keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
 
 
-if(keyUp)
+if(keyUp && throw_enabled)
 {
-	var snowball = instance_create_depth(x, y-sprite_height/2, -100, object_snowball_1);
-	with(snowball)
-	{ 
-		physics_apply_force(x,y, 0, throwforce)
-	}
+	//var snowball = instance_create_depth(x, y-sprite_height/2, -100, object_snowball_1);
+	//with(snowball)
+	//{ 
+	//	physics_apply_force(x,y, 0, throwforce)
+	//}
 	
-	physics_apply_force(x,y, 0, -recoilforce)
+	//physics_apply_force(x,y, 0, -recoilforce)
+	
+	var angle = arctan2(1, 0); 
+	script_throw_snowball(angle);
 	
 	script_fixture_update();
 	audio_play_sound(sound_sfx_jump,0,0)
@@ -62,17 +65,8 @@ damp_speed = true
 if(keyThrow && throw_enabled)
 {
 	var angle = arctan2(mouse_y-y, mouse_x - x); 
-
-	var snowball = instance_create_depth(x+cos(angle)*sprite_width/2, y-sprite_height/2+sin(angle)*sprite_height/2, -100, object_snowball_1);
-	with(snowball)
-	{
-		var angle = arctan2(mouse_y-y, mouse_x - x); 
-		physics_apply_force(x,y, cos(angle)*throwforce, sin(angle)*throwforce)
-	}
+	script_throw_snowball(angle);
 	
-	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
-	throw_enabled = false;
-	alarm[0] = room_speed * .05;
 	
 	script_fixture_update();
 	audio_play_sound(sound_sfx_throw,0,0)

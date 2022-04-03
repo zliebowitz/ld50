@@ -9,6 +9,7 @@
     {"id":{"name":"script_volume","path":"scripts/script_volume/script_volume.yy",},"order":0,},
     {"id":{"name":"sprite_title_snow","path":"sprites/sprite_title_snow/sprite_title_snow.yy",},"order":2,},
     {"id":{"name":"room_stage_1","path":"rooms/room_stage_1/room_stage_1.yy",},"order":4,},
+    {"id":{"name":"script_throw_snowball","path":"scripts/script_throw_snowball/script_throw_snowball.yy",},"order":5,},
     {"id":{"name":"sprite_title_background","path":"sprites/sprite_title_background/sprite_title_background.yy",},"order":4,},
     {"id":{"name":"object_text","path":"objects/object_text/object_text.yy",},"order":8,},
     {"id":{"name":"object_music_title","path":"objects/object_music_title/object_music_title.yy",},"order":1,},
