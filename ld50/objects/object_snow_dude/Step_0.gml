@@ -4,7 +4,7 @@
 keyLeft = keyboard_check(ord("A"))
 keyRight = keyboard_check(ord("D"))
 keyUp = keyboard_check_pressed(ord("W"))
-keyThrow = keyboard_check_pressed(ord("E")) || mouse_check_button_pressed(mb_left);
+keyThrow = mouse_check_button_pressed(mb_left);
 
 
 if(keyUp && throw_enabled)
