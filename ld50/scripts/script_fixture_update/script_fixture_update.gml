@@ -19,9 +19,7 @@ function script_fixture_init()
 }
 
 function script_fixture_update()
-{
-	numSnowballsThrown += 1;
-	
+{	
 	var max_scale = 2
 	var min_scale = 0.4
 	var scale_normalized = (max_scale - min_scale)*((numSnowballsThrowable - numSnowballsThrown) / numSnowballsThrowable)+min_scale;

@@ -10,7 +10,7 @@ function script_throw_snowball(angle_radians)
 	}
 	
 	physics_apply_force(x,y, -cos(angle)*recoilforce, -sin(angle)*recoilforce )
+	numSnowballsThrown += 1;
 	throw_enabled = false;
 	alarm[0] = room_speed * .05;
-
 }
