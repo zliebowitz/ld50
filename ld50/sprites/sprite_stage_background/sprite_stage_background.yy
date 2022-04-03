@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "stage",
-    "path": "folders/Sprites/stage.yy",
+    "name": "game",
+    "path": "folders/Sprites/game.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprite_stage_background",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprite_snowball",
-    "path": "sprites/sprite_snowball/sprite_snowball.yy",
+    "name": "sprite_stage_power_up",
+    "path": "sprites/sprite_stage_power_up/sprite_stage_power_up.yy",
   },
   "solid": false,
   "visible": true,
