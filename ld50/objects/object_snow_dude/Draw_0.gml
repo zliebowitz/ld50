@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //physics_world_draw_debug(phy_debug_render_coms | phy_debug_render_shapes);
-physics_draw_debug();
+//physics_draw_debug();
 
 if (!place_meeting(x,y+3, object_platform_1))
 {
