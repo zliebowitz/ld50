@@ -16,6 +16,9 @@ prev_phy_speeds = []
 prev_phy_speeds_len = 60
 prev_phy_speeds_i = 0
 
+numSnowballsThrown = 0;
+numSnowballsThrowable = 10;
+
 script_fixture_init();
 
 

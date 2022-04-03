@@ -3,8 +3,6 @@
 
 function script_fixture_init()
 {
-	numSnowballsThrown = 0;
-	numSnowballsThrowable = 20;
 	var fixture = physics_fixture_create();
 	physics_fixture_set_density(fixture, 0.8);
 	physics_fixture_set_restitution(fixture, 0.1);
