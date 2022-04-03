@@ -28,7 +28,7 @@
     "path": "folders/Objects/intro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_intro_timer_2",
+  "name": "object_intro_1_timer",
   "tags": [],
   "resourceType": "GMObject",
 }
