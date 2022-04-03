@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "title_screen",
-    "path": "folders/Objects/title_screen.yy",
+    "name": "title",
+    "path": "folders/Objects/title.yy",
   },
   "resourceVersion": "1.0",
   "name": "object_window_resize",
