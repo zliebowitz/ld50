@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "object_platform_parent",
-    "path": "objects/object_platform_parent/object_platform_parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": true,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -36,7 +33,7 @@
     "path": "folders/Objects/game.yy",
   },
   "resourceVersion": "1.0",
-  "name": "object_platform_1",
+  "name": "object_platform_parent",
   "tags": [],
   "resourceType": "GMObject",
 }

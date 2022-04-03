@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_sfx_land.wav",
-  "duration": 0.156984,
+  "soundFile": "sound_sfx_snowball_explode.wav",
+  "duration": 0.583968,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_sfx_land",
+  "name": "sound_sfx_snowball_explode",
   "tags": [],
   "resourceType": "GMSound",
 }

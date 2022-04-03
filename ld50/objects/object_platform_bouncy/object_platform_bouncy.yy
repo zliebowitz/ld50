@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "object_platform_1",
-    "path": "objects/object_platform_1/object_platform_1.yy",
+    "name": "object_platform_parent",
+    "path": "objects/object_platform_parent/object_platform_parent.yy",
   },
   "physicsObject": true,
   "physicsSensor": false,
@@ -28,7 +28,9 @@
     {"x":24.0,"y":24.0,},
     {"x":0.0,"y":24.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_snow_dude","path":"objects/object_snow_dude/object_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

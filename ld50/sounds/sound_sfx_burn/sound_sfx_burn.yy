@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_sfx_burn",
-  "duration": 0.0,
+  "soundFile": "sound_sfx_burn.wav",
+  "duration": 0.714603,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",

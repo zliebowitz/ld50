@@ -7,6 +7,7 @@ speed_damping = 1;
 
 
 throw_enabled = true;
+in_air = false;
 can_jump = false;
 damp_speed = true;
 

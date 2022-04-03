@@ -14,6 +14,7 @@ if(keyUp && can_jump)
 {
 	physics_apply_force(x,y,0,-recoilforce);
 	script_fixture_update();
+	audio_play_sound(sound_sfx_jump,0,0)
 	
 }
 can_jump = false;
@@ -68,6 +69,7 @@ if(keyThrow && throw_enabled)
 	alarm[0] = room_speed * .05;
 	
 	script_fixture_update();
+	audio_play_sound(sound_sfx_throw,0,0)
 }
 phy_speed_x = clamp(phy_speed_x, -max_speed, max_speed);
 phy_speed_y = clamp(phy_speed_y, -max_speed, max_speed);

@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_sfx_roll",
-  "duration": 0.0,
+  "soundFile": "sound_sfx_roll.wav",
+  "duration": 1.28517,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",

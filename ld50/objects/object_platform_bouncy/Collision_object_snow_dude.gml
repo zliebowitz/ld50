@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-//physics_set_density(0,0);
 
-
+audio_play_sound(sound_sfx_bounce, 0,0);

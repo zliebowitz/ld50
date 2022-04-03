@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_sfx_bounce",
-  "duration": 0.0,
+  "soundFile": "sound_sfx_bounce.wav",
+  "duration": 0.322177,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",
