@@ -1,6 +1,4 @@
-recoilforce = 160000;
-jumpforce = 100000;
-walkspeed = 1.5;
+recoilforce = 160000;walkspeed = 1.5;
 max_speed = 40;
 max_walkspeed = floor(max_speed/3);
 speed_damping = 1;
@@ -8,7 +6,6 @@ speed_damping = 1;
 
 throw_enabled = true;
 in_air = false;
-can_jump = false;
 damp_speed = true;
 
 accel = 0

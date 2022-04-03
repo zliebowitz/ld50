@@ -16,4 +16,3 @@ if (place_meeting(x,y+3, object_platform_1))
 
 
 throw_enabled = true;
-can_jump = true;
