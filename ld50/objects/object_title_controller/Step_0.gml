@@ -8,7 +8,7 @@ if (enter_pressed)
 
 keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
 keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
-keyEnter = keyboard_check(vk_enter) || keyboard_check(vk_space);
+keyEnter = keyboard_check(vk_enter) || keyboard_check(vk_space) || mouse_selection;
 
 // Process input
 if (keyLeft && !left_pressed)
@@ -35,6 +35,7 @@ else if (!keyRight && right_pressed)
 
 if (keyEnter && !enter_pressed)
 {
+	mouse_selection = false;
 	if(!global.pause)
 	{
 		audio_stop_all();

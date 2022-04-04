@@ -14,3 +14,5 @@ title_option = title_options.start;
 left_pressed = false;
 right_pressed = false;
 enter_pressed = false;
+
+mouse_selection = false;
