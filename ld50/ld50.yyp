@@ -115,12 +115,12 @@
     {"roomId":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},},
     {"roomId":{"name":"room_intro_1","path":"rooms/room_intro_1/room_intro_1.yy",},},
     {"roomId":{"name":"room_intro_2","path":"rooms/room_intro_2/room_intro_2.yy",},},
+    {"roomId":{"name":"room_gdb_3","path":"rooms/room_gdb_3/room_gdb_3.yy",},},
     {"roomId":{"name":"room_zrl_1","path":"rooms/room_zrl_1/room_zrl_1.yy",},},
     {"roomId":{"name":"room_zrl_2","path":"rooms/room_zrl_2/room_zrl_2.yy",},},
     {"roomId":{"name":"room_zrl_3","path":"rooms/room_zrl_3/room_zrl_3.yy",},},
     {"roomId":{"name":"room_gdb_1","path":"rooms/room_gdb_1/room_gdb_1.yy",},},
     {"roomId":{"name":"room_gdb_2","path":"rooms/room_gdb_2/room_gdb_2.yy",},},
-    {"roomId":{"name":"room_gdb_3","path":"rooms/room_gdb_3/room_gdb_3.yy",},},
     {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
   ],
   "Folders": [
