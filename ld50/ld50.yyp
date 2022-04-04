@@ -32,6 +32,7 @@
     {"id":{"name":"object_text_centered","path":"objects/object_text_centered/object_text_centered.yy",},"order":14,},
     {"id":{"name":"room_zab_5","path":"rooms/room_zab_5/room_zab_5.yy",},"order":8,},
     {"id":{"name":"room_zab_3","path":"rooms/room_zab_3/room_zab_3.yy",},"order":7,},
+    {"id":{"name":"sprite_ending_googly_eyes","path":"sprites/sprite_ending_googly_eyes/sprite_ending_googly_eyes.yy",},"order":1,},
     {"id":{"name":"object_snow_dude","path":"objects/object_snow_dude/object_snow_dude.yy",},"order":8,},
     {"id":{"name":"script_music_play","path":"scripts/script_music_play/script_music_play.yy",},"order":1,},
     {"id":{"name":"room_zab_2","path":"rooms/room_zab_2/room_zab_2.yy",},"order":10,},
