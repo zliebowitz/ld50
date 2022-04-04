@@ -31,7 +31,10 @@ else if (!keyboard_check(vk_right) && right_pressed)
 
 if ((keyboard_check(vk_enter) || keyboard_check(vk_space)) && !enter_pressed)
 {
-	audio_stop_all();
+	if(!global.pause)
+	{
+		audio_stop_all();
+	}
 	audio_play_sound(sound_sfx_selection_made, 10, false);
 	alarm[0] = room_speed;
 	enter_pressed = true;
