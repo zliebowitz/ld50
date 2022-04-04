@@ -1,6 +1,8 @@
 /// @brief All globals go here.
 
 global.throwstrength = 24;
+global.persistent_snow_level = -1
+global.persistent_snoverlay = pointer_null
 
 
 
