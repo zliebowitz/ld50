@@ -33,3 +33,5 @@ script_fixture_init();
 phy_fixed_rotation=true;
 current_scale = 2;
 current_facing = 1;
+
+victory = false;
