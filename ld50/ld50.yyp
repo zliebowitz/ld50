@@ -97,6 +97,7 @@
     {"id":{"name":"sound_sfx_land","path":"sounds/sound_sfx_land/sound_sfx_land.yy",},"order":2,},
     {"id":{"name":"script_sfx_roll","path":"scripts/script_sfx_roll/script_sfx_roll.yy",},"order":1,},
     {"id":{"name":"sound_music_title","path":"sounds/sound_music_title/sound_music_title.yy",},"order":0,},
+    {"id":{"name":"room_level_hard_1","path":"rooms/room_level_hard_1/room_level_hard_1.yy",},"order":4,},
     {"id":{"name":"sound_sfx_bounce","path":"sounds/sound_sfx_bounce/sound_sfx_bounce.yy",},"order":5,},
     {"id":{"name":"room_title_screen","path":"rooms/room_title_screen/room_title_screen.yy",},"order":0,},
   ],
@@ -132,6 +133,7 @@
     {"roomId":{"name":"room_gdb_1","path":"rooms/room_gdb_1/room_gdb_1.yy",},},
     {"roomId":{"name":"room_gdb_2","path":"rooms/room_gdb_2/room_gdb_2.yy",},},
     {"roomId":{"name":"room_gdb_3","path":"rooms/room_gdb_3/room_gdb_3.yy",},},
+    {"roomId":{"name":"room_level_hard_1","path":"rooms/room_level_hard_1/room_level_hard_1.yy",},},
     {"roomId":{"name":"room_end","path":"rooms/room_end/room_end.yy",},},
   ],
   "Folders": [
