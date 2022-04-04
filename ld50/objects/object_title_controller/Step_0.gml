@@ -45,21 +45,21 @@ switch (title_option)
 	case title_options.start:
 	{
 		object_title_start.image_speed = 1;
-		object_title_options.image_speed = 0;
+		//object_title_options.image_speed = 0;
 		object_title_exit.image_speed = 0;
 		break;
 	}
-	case title_options.options:
-	{
-		object_title_start.image_speed = 0;
-		object_title_options.image_speed = 1;
-		object_title_exit.image_speed = 0;
-		break;
-	}
+	//case title_options.options:
+	//{
+	//	object_title_start.image_speed = 0;
+	//	object_title_options.image_speed = 1;
+	//	object_title_exit.image_speed = 0;
+	//	break;
+	//}
 	case title_options.exit_game:
 	{
 		object_title_start.image_speed = 0;
-		object_title_options.image_speed = 0;
+		//object_title_options.image_speed = 0;
 		object_title_exit.image_speed = 1;
 		break;
 	}

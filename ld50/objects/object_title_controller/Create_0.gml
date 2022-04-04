@@ -4,7 +4,7 @@
 enum title_options
 {
 	start = 0,
-	options,
+//	options,
 	exit_game,
 	num_options
 }

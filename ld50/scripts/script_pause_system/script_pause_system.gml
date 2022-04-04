@@ -19,7 +19,7 @@ function script_pause_system_pause()
 	var left_side = camera_get_view_x(view_camera[0]);
 	var top_side = camera_get_view_y(view_camera[0]);
 	button_resume = instance_create_depth(left_side + 447, top_side+632, 0, object_title_start);
-	button_options = instance_create_depth(left_side + 751, top_side+632, 0, object_title_options);
+	//button_options = instance_create_depth(left_side + 751, top_side+632, 0, object_title_options);
 	button_exit = instance_create_depth( left_side + 1023, top_side+632, 0, object_title_exit);
 
 	
@@ -39,11 +39,11 @@ function script_pause_system_unpause()
 {
 
 	instance_destroy(button_resume);
-	instance_destroy(button_options);
+	//instance_destroy(button_options);
 	instance_destroy(button_exit);
 
 	button_resume = undefined;
-	button_options = undefined;
+	//button_options = undefined;
 	button_exit = undefined;
 	
 	

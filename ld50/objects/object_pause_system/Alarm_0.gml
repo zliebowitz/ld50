@@ -9,10 +9,10 @@ if(global.pause)
 	{
 		script_pause_system_unpause();
 	}
-	else if (title_option == title_options.options)
-	{
+	//else if (title_option == title_options.options)
+	//{
 		
-	}
+	//}
 	else if(title_option == title_options.exit_game)
 	{
 		script_pause_system_exit();
