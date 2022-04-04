@@ -24,9 +24,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [
     {"x":0.0,"y":0.0,},
-    {"x":24.0,"y":0.0,},
-    {"x":24.0,"y":24.0,},
-    {"x":0.0,"y":24.0,},
+    {"x":144.0,"y":0.0,},
+    {"x":144.0,"y":48.0,},
+    {"x":0.0,"y":48.0,},
   ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"object_snow_dude","path":"objects/object_snow_dude/object_snow_dude.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
