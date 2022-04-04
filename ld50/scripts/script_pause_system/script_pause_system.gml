@@ -33,6 +33,8 @@ function script_pause_system_draw_sprites()
 	draw_sprite(sprite_title_dude,-1, left_side+861, top_side+499);
 	draw_sprite(sprite_title_snow_dude,-1, left_side+565, top_side+403);
 	draw_sprite(sprite_title_background,-1, left_side+916, top_side+315);
+	
+	draw_sprite(sprite_game_controls, -1, left_side + 1100, top_side + 100);
 }
 
 function script_pause_system_unpause()
