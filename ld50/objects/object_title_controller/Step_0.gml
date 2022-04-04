@@ -6,30 +6,34 @@ if (enter_pressed)
 	return;
 }
 
+keyLeft = keyboard_check(ord("A")) || keyboard_check(vk_left);
+keyRight = keyboard_check(ord("D")) || keyboard_check(vk_right);
+keyEnter = keyboard_check(vk_enter) || keyboard_check(vk_space);
+
 // Process input
-if (keyboard_check(vk_left) && !left_pressed)
+if (keyLeft && !left_pressed)
 {
 	title_option = (title_option + title_options.num_options - 1) % title_options.num_options;
 	audio_play_sound(sound_sfx_selection, 10, false);
 	left_pressed = true;
 }
-else if (!keyboard_check(vk_left) && left_pressed)
+else if (!keyLeft && left_pressed)
 {
 	left_pressed = false;
 }
 
-if (keyboard_check(vk_right) && !right_pressed)
+if (keyRight && !right_pressed)
 {
 	title_option = (title_option + 1) % title_options.num_options;
 	audio_play_sound(sound_sfx_selection, 10, false);
 	right_pressed = true;
 }
-else if (!keyboard_check(vk_right) && right_pressed)
+else if (!keyRight && right_pressed)
 {
 	right_pressed = false;
 }
 
-if ((keyboard_check(vk_enter) || keyboard_check(vk_space)) && !enter_pressed)
+if (keyEnter && !enter_pressed)
 {
 	if(!global.pause)
 	{
