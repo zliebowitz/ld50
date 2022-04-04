@@ -6,7 +6,7 @@ function script_sfx_roll_start()
 {
 	if(global.roll_sfx == undefined)
 	{
-		global.roll_sfx =  audio_play_sound(sound_sfx_roll,0,0)
+		global.roll_sfx =  audio_play_sound(sound_sfx_roll,0,1)
 	}
 }
 

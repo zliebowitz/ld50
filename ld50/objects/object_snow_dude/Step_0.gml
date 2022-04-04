@@ -3,6 +3,8 @@
 
 if (victory)
 {
+	phy_active = false;
+	
 	return;
 }
 
@@ -113,6 +115,7 @@ else
 
 if(	numSnowballsThrown/numSnowballsThrowable == 1)
 {
+	audio_play_sound(sound_sfx_death,0,0);
 	room_restart();
 }
 

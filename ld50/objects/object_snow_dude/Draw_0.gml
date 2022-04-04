@@ -32,6 +32,12 @@ else
 }
 
 image_xscale = image_xscale * current_facing;
+
+if (victory)
+{
+	sprite_index = sprite_snow_dude_1
+}
+
 draw_self()
 
 

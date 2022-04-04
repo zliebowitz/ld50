@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sound_sfx_recharge.wav",
-  "duration": 0.582222,
+  "soundFile": "sound_sfx_win.wav",
+  "duration": 0.771791,
   "parent": {
     "name": "sfx",
     "path": "folders/Sounds/sfx.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sound_sfx_recharge",
+  "name": "sound_sfx_win",
   "tags": [],
   "resourceType": "GMSound",
 }

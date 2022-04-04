@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(sound_sfx_burn,0,0);
 
 with (other)
 {
+	audio_play_sound(sound_sfx_win, 0,0);
+
 	snowballSpeed = abs(phy_speed)
 
 	for(i = 0; i < 20; i++)
