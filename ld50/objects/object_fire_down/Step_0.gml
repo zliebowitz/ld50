@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-script_particles_fire_create(sprite_width, y);
+script_particles_fire_create(sprite_width, y - sprite_height);

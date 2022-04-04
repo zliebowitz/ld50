@@ -7,7 +7,7 @@ function script_particles_system_init()
 	part_system = part_system_create_layer(self.layer, false);
 }
 
-function script_particles_fire_init()
+function script_particles_fire_init(fire_direction = 90)
 {
 	part_fire = part_type_create();
 
@@ -29,7 +29,7 @@ function script_particles_fire_init()
 	part_type_speed(part_fire, 0.1, 3, 0, 0);
 
 	//// The direction
-	part_type_direction(part_fire,90,90,0,3);
+	part_type_direction(part_fire,fire_direction,fire_direction,0,3);
 
 	//// This changes the rotation of the particle
 	part_type_orientation(part_fire, 0, 359, 0, 0, 1);
@@ -42,10 +42,10 @@ function script_particles_fire_init()
 	
 }
 
-function script_particles_fire_create(fire_width)
+function script_particles_fire_create(fire_width, y_location)
 {
 	show_debug_message("Make Particle");
 	var xx = x + fire_width/2 - random(fire_width);
 	
-	part_particles_create(part_system, xx, y, part_fire, max(fire_width,1));
+	part_particles_create(part_system, xx, y_location, part_fire, max(fire_width,1));
 }
