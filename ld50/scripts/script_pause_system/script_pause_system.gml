@@ -15,19 +15,24 @@ function script_pause_system_pause()
 	
 	//var view_midw = surface_get_width(application_surface)/2;
 	//var view_midh  = surface_get_height(application_surface)/2;
-	button_resume = instance_create_depth(447, 732, 0, object_title_start);
-	button_options = instance_create_depth(751, 732, 0, object_title_options);
-	button_exit = instance_create_depth(1023, 732, 0, object_title_exit);
+	
+	var left_side = camera_get_view_x(view_camera[0]);
+	var top_side = camera_get_view_y(view_camera[0]);
+	button_resume = instance_create_depth(left_side + 447, top_side+632, 0, object_title_start);
+	button_options = instance_create_depth(left_side + 751, top_side+632, 0, object_title_options);
+	button_exit = instance_create_depth( left_side + 1023, top_side+632, 0, object_title_exit);
 
 	
 }
 
 function script_pause_system_draw_sprites()
 {
-	draw_sprite(sprite_title_snow,-1,612, 239);
-	draw_sprite(sprite_title_dude,-1, 861, 599);
-	draw_sprite(sprite_title_snow_dude,-1, 565, 503);
-	draw_sprite(sprite_title_background,-1, 916, 415);
+	var left_side = camera_get_view_x(view_camera[0]);
+	var top_side = camera_get_view_y(view_camera[0]);
+	draw_sprite(sprite_title_snow,-1,left_side+612, top_side+139);
+	draw_sprite(sprite_title_dude,-1, left_side+861, top_side+499);
+	draw_sprite(sprite_title_snow_dude,-1, left_side+565, top_side+403);
+	draw_sprite(sprite_title_background,-1, left_side+916, top_side+315);
 }
 
 function script_pause_system_unpause()
