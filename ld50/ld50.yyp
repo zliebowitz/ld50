@@ -43,6 +43,7 @@
     {"id":{"name":"object_snow_pixel","path":"objects/object_snow_pixel/object_snow_pixel.yy",},"order":4,},
     {"id":{"name":"object_window_resize","path":"objects/object_window_resize/object_window_resize.yy",},"order":8,},
     {"id":{"name":"object_fire","path":"objects/object_fire/object_fire.yy",},"order":5,},
+    {"id":{"name":"object_end_controller","path":"objects/object_end_controller/object_end_controller.yy",},"order":11,},
     {"id":{"name":"object_game_follow_background","path":"objects/object_game_follow_background/object_game_follow_background.yy",},"order":12,},
     {"id":{"name":"sprite_menu","path":"sprites/sprite_menu/sprite_menu.yy",},"order":8,},
     {"id":{"name":"object_music_bgm","path":"objects/object_music_bgm/object_music_bgm.yy",},"order":2,},
