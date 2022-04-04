@@ -47,5 +47,5 @@ function script_particles_fire_create(fire_width)
 	show_debug_message("Make Particle");
 	var xx = x + fire_width/2 - random(fire_width);
 	
-	part_particles_create(part_system, xx, y, part_fire, max(fire_width/3,1));
+	part_particles_create(part_system, xx, y, part_fire, max(fire_width,1));
 }
