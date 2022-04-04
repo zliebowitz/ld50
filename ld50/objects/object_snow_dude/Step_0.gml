@@ -4,6 +4,7 @@
 keyLeft = keyboard_check(ord("A"))
 keyRight = keyboard_check(ord("D"))
 keyUp = keyboard_check_pressed(ord("W"))
+keyDown = keyboard_check_pressed(ord("S"))
 keyThrow = mouse_check_button_pressed(mb_left);
 
 
@@ -18,6 +19,24 @@ if(keyUp && throw_enabled)
 	//physics_apply_force(x,y, 0, -recoilforce)
 	
 	var angle = arctan2(1, 0); 
+	script_throw_snowball(angle);
+	
+	script_fixture_update();
+	audio_play_sound(sound_sfx_jump,0,0)
+	
+}
+
+if(keyDown && throw_enabled)
+{
+	//var snowball = instance_create_depth(x, y-sprite_height/2, -100, object_snowball_1);
+	//with(snowball)
+	//{ 
+	//	physics_apply_force(x,y, 0, throwforce)
+	//}
+	
+	//physics_apply_force(x,y, 0, -recoilforce)
+	
+	var angle = arctan2(-1, 0); 
 	script_throw_snowball(angle);
 	
 	script_fixture_update();
