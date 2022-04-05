@@ -13,7 +13,7 @@
   "option_lastchanged": "02 April 2022 11:32:44",
   "option_spine_licence": false,
   "option_template_image": "${base_options_dir}/main/template_image.png",
-  "option_template_icon": "${base_options_dir}/main/template_icon.png",
+  "option_template_icon": "template_icon.png",
   "option_template_description": null,
   "resourceVersion": "1.4",
   "name": "Main",
