@@ -92,11 +92,11 @@ phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
 phy_speed_y = clamp(phy_speed_y, -max_y_speed, max_y_speed);
 
 
-
-accel = phy_speed - global_array_mean(prev_phy_speeds)
+var calc_phy_speed = sqrt(sqr(phy_speed_x) + sqr(phy_speed_y))
+accel = calc_phy_speed - global_array_mean(prev_phy_speeds)
 phy_direction = radtodeg(arctan2(phy_speed_y, -phy_speed_x))
 array_delete(prev_phy_speeds, prev_phy_speeds_i, 1)
-array_insert(prev_phy_speeds, prev_phy_speeds_i, phy_speed)
+array_insert(prev_phy_speeds, prev_phy_speeds_i, calc_phy_speed)
 prev_phy_speeds_i += 1
 prev_phy_speeds_i %= prev_phy_speeds_len
 
