@@ -7,7 +7,8 @@ audio_play_sound(sound_sfx_death,0,0);
 
 with (other)
 {
-	snowballSpeed = abs(phy_speed)
+	var calc_phy_speed = sqrt(sqr(phy_speed_x) + sqr(phy_speed_y))
+	snowballSpeed = abs(calc_phy_speed)
 
 	for(i = 0; i < 20; i++)
 	{
