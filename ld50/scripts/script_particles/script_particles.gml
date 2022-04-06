@@ -46,7 +46,14 @@ function script_particles_fire_create(fire_width, y_location)
 {
 	var xx = x + fire_width/2 - random(fire_width);
 	
-	part_particles_create(part_system, xx, y_location, part_fire, max(fire_width,1));
+	var left_side = camera_get_view_x(view_camera[0]) - 48;
+	var top_side = camera_get_view_y(view_camera[0]) - 48;
+	var right_side = left_side + camera_get_view_width(view_camera[0]) + 48;
+	var bottom_side = top_side + + camera_get_view_height(view_camera[0]) + 48;
+	if(point_in_rectangle(xx,y_location,left_side,top_side,right_side, bottom_side))
+	{
+		part_particles_create(part_system, xx, y_location, part_fire, max(fire_width/3,1));
+	}
 }
 
 function script_particles_fire_cleanup()
