@@ -44,8 +44,14 @@ function script_particles_fire_init(fire_direction = 90)
 
 function script_particles_fire_create(fire_width, y_location)
 {
-	show_debug_message("Make Particle");
 	var xx = x + fire_width/2 - random(fire_width);
 	
 	part_particles_create(part_system, xx, y_location, part_fire, max(fire_width,1));
 }
+
+function script_particles_fire_cleanup()
+{
+	part_type_destroy(part_fire);
+	part_system_destroy(part_system);
+}
+
