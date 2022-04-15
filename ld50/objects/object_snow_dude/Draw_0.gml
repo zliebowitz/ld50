@@ -41,4 +41,10 @@ if (victory)
 draw_self()
 
 
+var _dir = point_direction(mouse_x, mouse_y,x,y);
+
+draw_arrow(x+lengthdir_x(48,_dir), y+lengthdir_y(48,_dir),x+lengthdir_x(96,_dir), y+lengthdir_y(96,_dir), 24);
+
+
+
 
